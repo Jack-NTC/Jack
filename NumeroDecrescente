@@ -1,0 +1,30 @@
+package numerodecrescente;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Jack
+ */
+public class NumeroDecrescente {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        int a;
+        String entrada;
+
+        System.out.println("Digite o valor :  ");
+        entrada = in.next();
+        a = Integer.parseInt(entrada);
+
+        do {
+
+            System.out.println(a);
+            a--;
+
+        } while (a >= 0);
+
+    }
+
+}
